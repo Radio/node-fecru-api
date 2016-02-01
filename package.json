@@ -1,0 +1,37 @@
+{
+  "name": "node-fecru-api",
+  "version": "0.0.1",
+  "description": "Fisheye Crucible REST API Client.",
+  "main": "./lib/fecru.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Radio/node-fecru-api.git"
+  },
+  "keywords": [
+    "atlassian",
+    "fecru",
+    "crucible",
+    "fisheye"
+  ],
+  "author": {
+    "name": "Max Gopey",
+    "email": "mgopey@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "request": "~2.69.0",
+    "url": "~0.11.0",
+    "querystring": "~0.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Radio/node-fecru-api/issues"
+  }
+}
